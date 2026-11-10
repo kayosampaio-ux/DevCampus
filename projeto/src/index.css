@@ -109,3 +109,41 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.cursos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.curso-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid #1a3a6b;
+}
+
+.curso-card h3 {
+  color: #1a3a6b;
+  margin-bottom: 4px;
+}
+
+.duracao {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.noticia {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.data {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 8px;
+}
